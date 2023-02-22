@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * _is slower - checks for lowercase chracter
- * @c : The character to be checked
- * Return: 1 for lowercase character or 0 for anything else
+ * _is lower - checks fo lowercase character
+ * @c: The character to be checked
+ * Return: 1 for lowercase character or 0 for for anything else
  */
-
 int _islower(int c)
-
 {
 	if (c >= 97 && c <= 122)
 	{
